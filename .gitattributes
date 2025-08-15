@@ -1,0 +1,57 @@
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+ Thumbs.db
+
+# Environment
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+
+# IDEs
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Composer
+/auth.json
+/vendor
+/composer.phar
+
+# Node
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Laravel
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/public/storage
+
+# Build tools
+/public/build
+/public/hot
+
+# Packages
+*.deb
+*.dmg
+*.msi
+*.pkg
+*.rpm
+*.tar.gz
+*.zip
+
+# Testing
+/.phpunit.cache
+/.pest
